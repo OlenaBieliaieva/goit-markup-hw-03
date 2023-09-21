@@ -1,0 +1,155 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+h1 {
+  font-size: 56px;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  line-height: 1.07;
+  color: #ffffff;
+  text-align: center;
+}
+h2 {
+  font-size: 36px;
+  color: #2e2f42;
+  text-transform: capitalize;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+h3 {
+  color: #2e2f42;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  font-size: 20px;
+}
+p {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+a:link {
+  text-decoration: none;
+}
+ul li {
+  list-style-type: none;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo-part {
+  color: #f4f4fd;
+}
+.logo-part-header {
+  color: #2e2f42;
+}
+
+/* header */
+.header-nav-item {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.header-nav-item:hover,
+:focus {
+  color: #404bbf;
+}
+.header-contacts {
+  font-style: normal;
+}
+.header-contacts-item {
+  color: #434455;
+  font-weight: regular;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  font-style: normal;
+  line-height: 1.5;
+}
+.header-contacts-item:hover,
+:focus {
+  color: #404bbf;
+}
+
+/* main section */
+.main-section {
+  background-color: #2e2f42;
+}
+.main-section-title {
+}
+.main-section-button {
+  color: #ffffff;
+  background: #4d5ae5;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  text-indent: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.main-section-button:hover {
+  color: #ffffff;
+  background: #404bbf;
+}
+.main-section-button:focus {
+  color: #ffffff;
+  background: #404bbf;
+}
+
+/* about us section */
+.about-us-section {
+  background-color: #ffffff;
+}
+.about-us-section-item-title {
+}
+.about-us-section-item-text {
+}
+
+/* our team section */
+.our-team-section {
+  background-color: #f4f4fd;
+}
+.our-team-section-title {
+}
+.our-team-section-item {
+  background-color: #ffffff;
+}
+.our-team-section-item-title {
+}
+.our-team-section-item-text {
+}
+
+/* our portfolio section */
+.our-portfolio-section {
+  background-color: #ffffff;
+}
+.our-portfolio-section-title {
+}
+.our-portfolio-section-item-title {
+}
+.our-portfolio-section-item-text {
+}
+
+/* footer */
+footer {
+  background-color: #2e2f42;
+}
+.footer-text {
+  color: #f4f4fd;
+  font-size: 16px;
+  font-weight: regular;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
