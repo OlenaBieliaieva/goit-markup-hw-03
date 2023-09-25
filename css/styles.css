@@ -108,9 +108,6 @@ img {
   padding: 24px 0;
   margin-right: 76px;
 }
-.logo-part {
-  color: #f4f4fd;
-}
 .logo-part-header {
   color: #2e2f42;
 }
@@ -219,10 +216,10 @@ overflow: hidden;
 /*--------------------- our team section ---------------------*/
 .our-team-section {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .our-team-section-title {
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px; 
 }
 .our-team-subdiv {
   padding: 32px 0;
@@ -285,17 +282,27 @@ width: calc((100% - 48px);
 /*------------------------------------------------------------*/
 
 /*----------------------------- footer -----------------------*/
-.footer {
+.footer-section {
   background-color: #2e2f42;
   padding: 100px 0;
+  display: inline;
+  
 }
-.footer a {
-  display: inline-block;
-  width: 44px;
-  height: 21px;
-  flex-direction: column;
-  justify-content: center;
-  margin-bottom: 16px;
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  padding: 24px 0;
+  margin-bottom: 16px; 
+  display: inline-block; 
+}
+.footer-part-logo {
+  color: #f4f4fd;
+    display: inline-block;
 }
 .footer-text {
   color: #f4f4fd;
