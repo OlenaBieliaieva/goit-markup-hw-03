@@ -241,6 +241,9 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.our-portfolio-section-title {
+  margin-bottom: 72px;
+}
 .our-portfolio-section-items {
   display: flex;
   flex-wrap: wrap;
@@ -255,9 +258,6 @@ width: calc((100% - 48px);
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
-}
-.our-portfolio-section-title {
-  margin-bottom: 72px;
 }
 .our-portfolio-section-item-title {
 }
