@@ -1,9 +1,31 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+a {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
 h1 {
   font-size: 56px;
   font-weight: bold;
@@ -38,6 +60,41 @@ a:link {
 ul li {
   list-style-type: none;
 }
+img {
+  display: block;
+  max-width: 100%;
+}
+.container {
+  max-width: 1128px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100v;
+}
+/*---------------------- header -----------------------------*/
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  background-color: ##ffffff;
+}
+.header-havigation,
+.header-contacts {
+  display: flex;
+}
+.header-nav-items {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0;
+  gap: 40px;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+}
+.header-contacts-items {
+  display: flex;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -46,6 +103,7 @@ ul li {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  padding: 24px 76px 24px 0;
 }
 .logo-part {
   color: #f4f4fd;
@@ -54,7 +112,6 @@ ul li {
   color: #2e2f42;
 }
 
-/* header */
 .header-nav-item {
   color: #2e2f42;
   font-size: 16px;
@@ -69,6 +126,10 @@ ul li {
 .header-contacts {
   font-style: normal;
 }
+.header-contacts-items {
+  padding: 24px 0;
+  gap: 40px;
+}
 .header-contacts-item {
   color: #434455;
   font-weight: regular;
@@ -81,12 +142,19 @@ ul li {
 :focus {
   color: #404bbf;
 }
+/*------------------------------------------------------------*/
 
-/* main section */
+/*----------------------- main section -----------------------*/
 .main-section {
   background-color: #2e2f42;
 }
+.main-section .container {
+  display: flex;
+}
 .main-section-title {
+  display: flex;
+  max-width: 496px;
+  text-align: center;
 }
 .main-section-button {
   color: #ffffff;
@@ -107,44 +175,94 @@ ul li {
   color: #ffffff;
   background: #404bbf;
 }
+/*------------------------------------------------------------*/
 
-/* about us section */
+/*-------------------- about us section ----------------------*/
 .about-us-section {
   background-color: #ffffff;
 }
-.about-us-section-item-title {
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+.about-us-section-items {
+  display: flex;
+  gap: 24px;
+  padding: 120px 0;
 }
 .about-us-section-item-text {
 }
+/*------------------------------------------------------------*/
 
-/* our team section */
+/*--------------------- our team section ---------------------*/
 .our-team-section {
   background-color: #f4f4fd;
 }
 .our-team-section-title {
+  padding-top: 120px;
+  padding-bottom: 72px;
+}
+.our-team-section-items {
+  display: flex;
+  gap: 24px;
+  padding-bottom: 120px;
 }
 .our-team-section-item {
   background-color: #ffffff;
+  display: inline-flex;
+  padding-bottom: 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  border-radius: 0px 0px 4px 4px;
+  background: #fff;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .our-team-section-item-title {
 }
 .our-team-section-item-text {
 }
+/*------------------------------------------------------------*/
 
 /* our portfolio section */
 .our-portfolio-section {
   background-color: #ffffff;
+  padding: 120px 0;
+}
+.our-portfolio-section-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 .our-portfolio-section-title {
+  padding-bottom: 72px;
 }
 .our-portfolio-section-item-title {
+  padding-top: 32px;
+  padding-bottom: 8px;
 }
 .our-portfolio-section-item-text {
 }
+/*------------------------------------------------------------*/
 
-/* footer */
+/*----------------------------- footer -----------------------*/
 footer {
   background-color: #2e2f42;
+}
+.footer .logo {
+  display: flex;
+  width: 44px;
+  height: 21px;
+  flex-direction: column;
+  justify-content: center;
 }
 .footer-text {
   color: #f4f4fd;
@@ -152,4 +270,6 @@ footer {
   font-weight: regular;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-bottom: 100px;
+  padding-top: 18px;
 }
