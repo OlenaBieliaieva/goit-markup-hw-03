@@ -269,7 +269,7 @@ overflow: hidden;
 .our-portfolio-section-item {
 width: calc((100% - 48px);
 }
-.our-portfolio-div {
+.our-portfolio-container {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
@@ -283,7 +283,7 @@ width: calc((100% - 48px);
 .footer {
   background-color: #2e2f42;
 }
-.container-footer {
+.footer .container {
   padding: 100px 0;
 }
 .footer-logo {
