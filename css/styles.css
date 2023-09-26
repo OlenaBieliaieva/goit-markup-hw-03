@@ -282,11 +282,9 @@ width: calc((100% - 48px);
 /*------------------------------------------------------------*/
 
 /*----------------------------- footer -----------------------*/
-.footer-section {
+.footer {
   background-color: #2e2f42;
   padding: 100px 0;
-  display: inline;
-  
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -297,12 +295,10 @@ width: calc((100% - 48px);
   text-transform: uppercase;
   color: #4d5ae5;
   padding: 24px 0;
-  margin-bottom: 16px; 
-  display: inline-block; 
+  margin-bottom: 16px;  
 }
-.footer-part-logo {
+.footer-logo-part {
   color: #f4f4fd;
-    display: inline-block;
 }
 .footer-text {
   color: #f4f4fd;
