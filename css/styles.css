@@ -157,11 +157,11 @@ img {
   color: #ffffff;
   text-align: center;
   margin: 0 auto 48px auto;
-  width: 496px;
+  max-width: 496px;
 }
 .main-section-button {
   display: block;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   border: none;
   border-radius: 4px;
